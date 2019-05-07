@@ -25,6 +25,7 @@ class App extends Component {
 
   return (
     <div className="App">
+    <div> Testing Travis CI</div>
       <div className="container">
         <Table characterData={characters}/>
       </div>
