@@ -1,38 +1,21 @@
-import React , { Component }from 'react';
-import Table from "./Table.js";
-import './App.css';
+import React from "react"
+import productsData from "./products"
 
-class App extends Component {
-  render() {
-  const characters = [
-    {
-      name: 'Charlie',
-      job: 'Janitor',
-    },
-    {
-      name: 'Mac',
-      job: 'Bouncer',
-    },
-    {
-      name: 'Dee',
-      job: 'Aspring actress',
-    },
-    {
-      name: 'Dennis',
-      job: 'Bartender',
-    },
-  ]
-
+function App() {
   return (
-    <div className="App">
-      <div className="container">
-        <Table characterData={characters}/>
-      </div>
+    <div>
+        {productsData.map(product => 
+          <div>
+          <p>product Name: {product.name}</p>
+          <p>Description: {product.description}</p>
+          <p>Price: £{product.price}</p>
+          
+          </div>
+        
 
-
-    </div >
-  );
-}
+        )}
+    </div>
+  )
 }
 
 export default App;
