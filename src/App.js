@@ -4,6 +4,7 @@ import productsData from "./products"
 function App() {
   return (
     <div>
+      <h2>Hello Kodiri bootCamp!</h2>
         {productsData.map(product => 
           <div>
           <p>product Name: {product.name}</p>
