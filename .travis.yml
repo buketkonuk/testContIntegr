@@ -4,3 +4,4 @@ node_js:
 cache: npm
 install: npm install
 script: npm test
+build: npm build
