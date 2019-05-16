@@ -6,6 +6,7 @@ function App() {
     <div>
       <h2>Hello Kodiri bootCamp!</h2>
       <h3>This is the travis CI demo!!!</h3>
+      <h1>TEST TRAVIS CI</h1>
         {productsData.map(product => 
           <div>
           <p>product Name: {product.name}</p>
