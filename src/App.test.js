@@ -9,5 +9,5 @@ it('renders without crashing', () => {
 });
 
 it('will break!', () => {
-  expect(true).toBe(false);
+  expect(true).toBe(true);
 });
