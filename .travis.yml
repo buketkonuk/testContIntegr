@@ -6,5 +6,5 @@ install: npm install
 script: npm test
 deploy: 
   provider: heroku
-  api_key: 8b2ef683-25be-4d8c-a05a-bba6fd4a6b73
-  app: test-train
+  api_key: e937be5d-9aae-48fd-9df3-b3c04977df5a
+  app: citestgray
