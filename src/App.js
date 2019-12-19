@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <h2>Hello Kodiri bootCamp!</h2>
-      <h3>Late friday change oh yeah</h3>
+      <h3>Does this still work?</h3>
         {productsData.map(product => 
           <div>
           <p>product Name: {product.name}</p>
